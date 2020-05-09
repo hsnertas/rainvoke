@@ -1,0 +1,336 @@
+html, body{
+    height: 100%;
+    width: 100%;
+
+}
+
+p{
+    font-size: 20px;   
+}
+
+/* Styles for  Llanding page */
+#home{
+    background: url(./ball.jpg) no-repeat center center fixed;
+    display: table;
+    height: 100%;
+    position: relative;
+    width: 100%;
+    background-size: cover;
+}
+
+.landing-text{
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.formCard{
+    background-color: transparent;
+    border: none;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.form-control{
+    background-color: transparent;
+    border: 1px solid #417192 ;
+}
+
+.exploreH3{
+    color: #417192;
+    font-family: 'Pacifico', cursive;
+    margin-bottom: 30px;
+    
+}
+
+.exploreH1{
+   
+    font-family: 'Anton', sans-serif;
+    margin-bottom: 70px;
+    font-size: 50px;
+    color: white;
+}
+
+/* Styles for  fixed */
+#fixed{
+    background: url(./person.jpg) no-repeat center center fixed;
+    display: table;
+    height: 60%;
+    position: relative;
+    width: 100%;
+    background-size: cover;
+    margin-bottom: 150px;
+    margin-top: 150px;
+}
+
+/* Styles for  countries*/
+.card-header{
+    background-color: transparent;
+    
+}
+
+.countryTextDiv{   
+    height: 460px;
+    margin-bottom: auto;
+    margin-top: auto;
+    background-color: #D9EDF7 ;
+    color: #417192 ;
+    border-radius: 15px;   
+}
+
+.countryTextItems{
+    vertical-align: middle;  
+    padding-left: 50px;
+    padding-top: 70px;
+    font-size: 40px;
+}
+
+#flag{
+    width: 100%;
+    height: auto;
+    border-radius: 15px;
+}
+
+#countryName{
+    color: #417192;
+}
+
+.countryCard{
+    border: none;
+    margin-top: 100px;
+}
+
+.countryHeader{
+    border: none;
+    margin-bottom: 50px;
+    border-bottom: 5px dotted #417192 ;
+    font-family: 'Modak', cursive;  
+}
+
+/* Styles for  map */
+#map {
+    height: 400px;  
+    width: 100%;  
+    margin-top: 30px;
+    border-radius: 15px;
+}
+
+/* Styles for  weather */
+#temp{
+    margin-top: 50px;
+    margin-left: 30px;
+    font-size: 40px;
+    font-weight: 900;
+    
+}
+
+.imgCol{
+    text-align: center;
+}
+
+.description{
+    margin-left: 20px;
+    font-size: 20px;
+    margin-bottom: -10px;
+    font-weight: 900;
+   
+}
+
+#city, .currentDate{
+    font-weight: 900;
+
+}
+
+/* Styles for  covid */
+.covidCard{
+    margin-top:30px;
+    border: none; 
+    border-radius: 15px;
+}
+
+.red{
+    background-color: #EED2D2 ;
+    color: #A94442 ;  
+}
+.yellow{
+    background-color: #FAF3D2 ;
+    color: #917544 ;  
+}
+.blue{
+    background-color: #D9EDF7 ;
+    color: #417192 ;  
+}
+.green{
+    background-color: #DDEFD6 ;
+    color: #3C763D ;  
+}
+
+/* Styles for  video and articles */
+.info{
+
+    margin-right: 20px;
+    color: #417192;
+}
+.goCard{
+    border: none;
+}
+
+.goHeader{
+    text-align: center;
+    color:  #3C763D ; 
+    border: none;
+    margin-bottom: 50px;
+    font-family: 'Anton', sans-serif;
+}
+/* Styles for  articles */
+.readHeader{
+    border: none;
+    border-bottom: 5px dotted #417192;
+}
+
+.readme{
+    margin-right: 20px;
+    color: #417192;
+
+}
+
+.readH2{
+    color: #417192 ;
+    text-align: center;
+}
+
+.readP{
+    margin-top: 20px;
+    background-color:#D9EDF7;
+    color: #417192 ;
+    font-weight: 700;
+
+}
+
+.imgDiv{
+    margin-bottom: 20px;
+}
+.size {
+    height: auto;
+    width: 35%;
+    transition: transform .2s;
+} 
+/* Styles for  videos */
+.videoHeader{
+    border: none;
+    border-bottom: 5px dotted #A94442;
+    margin-bottom: 20px;
+}
+
+.watchH2{
+    color: #A94442;
+    text-align: center;
+    
+}
+
+.youtube{
+    color:#A94442 ;
+    margin-right: 20px;
+}
+
+.videoP{
+    margin-top: 20px;
+    background-color:#EED2D2;
+    color: #A94442 ;
+    font-weight: 700;
+}
+
+#videoCard, #readCard{
+    border: none;
+    text-align: center;
+}
+
+.videosImg{
+    height: auto;
+    width: 30%;
+    margin-bottom: 20px;
+    transition: transform .2s;
+
+}
+/* Hover for  video images */
+.videosImg:hover{
+    /* -ms-transform: scale(1.5); /* IE 9 */
+    /* -webkit-transform: scale(1.5); Safari 3-8 */
+    /* transform: scale(1.5);  */ 
+}
+
+/* Styles for  images */
+#images{
+    text-align: center;
+    color: #3C763D ;
+    font-family: 'Anton', sans-serif;
+}
+ #results img{
+    padding: 20px; 
+}
+#results{
+    text-align: center;
+}
+
+.place{
+    padding-right: 20px;
+    color: #417192;
+}
+#ImagesCard{
+    background-color:#D9EDF7 ;
+    border: none;
+    margin-bottom: 500px;
+    margin-top: 100px;
+}
+#ImagesHeader{
+    border: none;
+}
+
+/* Styles for  footer */
+footer{
+    background-color: #417192;
+    font-family: 'Anton', sans-serif;
+}
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  }
+  
+  /* Modal Content/Box */
+  .modal-content {
+    background-color: #fefefe;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 20%; /* Could be more or less, depending on screen size */
+  }
+  
+  /* The Close Button */
+  .close {
+    color: rgb(196, 52, 52);
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  #closex{
+      float: right;
+  }
